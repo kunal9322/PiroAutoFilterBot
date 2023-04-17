@@ -107,8 +107,8 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('🔎 𝖲𝖾𝖺𝗋𝖼𝗁 𝖠𝗀𝖺𝗂𝗇', switch_inline_query_current_chat=query),
-            InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/piroxbots")
+            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴏᴍᴇs ᴍᴏʀᴇ', switch_inline_query_current_chat=query),
+            InlineKeyboardButton('⚡ᴜᴘᴅᴀᴛᴇs ⚡', url="https://t.me/Campus_Bot_Updates")
         ]
         ]
     return InlineKeyboardMarkup(buttons)
